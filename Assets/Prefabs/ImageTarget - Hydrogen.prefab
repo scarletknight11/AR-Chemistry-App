@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5987262149640750599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5987262149640750595}
+  - component: {fileID: 5987262149640750594}
+  - component: {fileID: 5987262149640750593}
+  - component: {fileID: 5987262149640750844}
+  m_Layer: 0
+  m_Name: ImageTarget - Hydrogen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5987262149640750595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987262149640750599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5987262150459162965}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5987262149640750594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987262149640750599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: hydrogen
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/--- EMPTY ---.xml
+  mAspectRatio: 1.4818182
+  mImageTargetType: 3
+  mWidth: 0.13496932
+  mHeight: 0.2
+  mRuntimeTexture: {fileID: 2800000, guid: 24379d7848b6e204ba184ebc32ae848e, type: 3}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mPreview: {fileID: 5987262149640750844}
+--- !u!114 &5987262149640750593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987262149640750599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5987262149640750844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987262149640750599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 5987262149640750594}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: hydrogen
+  mDatasetName: Vuforia/--- EMPTY ---.xml
+  mCastedBehaviour: {fileID: 5987262149640750594}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!1 &5987262150459162964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5987262150459162965}
+  m_Layer: 0
+  m_Name: H
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5987262150459162965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987262150459162964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3608006487168818393}
+  m_Father: {fileID: 5987262149640750595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5987262150540221774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5987262150459162965}
+    m_Modifications:
+    - target: {fileID: 1733204799143057486, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_Name
+      value: Hydrogen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.07953767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.07953767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.07953767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000033170747
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.042900026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000000045543236
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.58661705
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.44796494
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.36028928
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.570438
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -6.576
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 70.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 266.991
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89edbd7d29855fb429bfab34391723b6, type: 3}
+--- !u!4 &3608006487168818393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6991048957297672599, guid: 89edbd7d29855fb429bfab34391723b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 5987262150540221774}
+  m_PrefabAsset: {fileID: 0}
